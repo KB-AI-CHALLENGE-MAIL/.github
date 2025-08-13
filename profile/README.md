@@ -168,8 +168,8 @@ graph LR
   </tr>
   <tr>
     <td align="center" width="120px">AI 모델 개발</td>
-    <td align="center" width="120px">FE</td>
-    <td align="center" width="120px">BE</td>
+    <td align="center" width="120px">Data, FE</td>
+    <td align="center" width="120px">FE, BE</td>
   </tr>
 </table>
 
