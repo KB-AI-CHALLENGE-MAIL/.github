@@ -92,7 +92,7 @@ graph LR
 | AI        | FastAPI 기반 LangChain + OpenAI 리포트 엔진 | [Repo](https://github.com/organization/AI) |
 | Dataset   | 데이터 수집·지표 산출 파이프라인 | [Repo](https://github.com/organization/Dataset) |
 
-구체 동작
+**구체 동작**
 
 - Dataset: FMP API 등 외부 데이터에서 일/분봉 시계열 수집, 기술 지표 계산(RSI, MA Stack, Stochastic, Bollinger, Keltner, OBV 등) 후 `daily_market_data`, `intraday_market_data` 등 테이블에 저장
 - Backend: 스코어링 루브릭(페르소나) 설정(`application.yml`의 `scoring.rubrics`)과 DB의 거래/지표를 활용해 리포트/목록 제공, 거래 CRUD 제공
